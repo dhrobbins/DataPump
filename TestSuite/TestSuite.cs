@@ -17,14 +17,7 @@ namespace TestSuite
     [TestFixture]
     public class TestSuite
     {
-        private string connection = "Data Source=sql_mri;Initial Catalog=TenantMaster;User ID=sa;Password=protectsa";
-        
-
-        //"usp_GetLLXDealsCalYearForSharepoint"
-        //"usp_GetLLXDealsWITYYearForSharepoint"
-        //"usp_GetLLXSumsCalYearForSharepoint"
-        //"usp_GetLLXSumsWITYYearForSharepoint"
-        //"usp_pivotLLXWityYear"
+        private string connection = "Data Source=servername;Initial Catalog=dbname;User ID=sa;Password=pwd";
 
         [Test]
         [NUnit.Framework.Category("DataProvider")]
@@ -148,9 +141,6 @@ namespace TestSuite
             parameters.Add("StartDate", new DateTime(2009, 7, 1));
             parameters.Add("EndDate", new DateTime(2010, 6, 30));
             parameters.Add("StatusList", "pai,app");
-
-            //var results = dataProvider.SetParameters(parameters)
-            //                .ExecuteStoredProcedure();
 
             List<dynamic> results = dataProvider.SetParameters(parameters)
                             .ExecuteStoredProcedure();
