@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<VisualState xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ShowCheckBoxes="true">
+  <TopNode>[0-1016]F:\vs10dev\DataPump\TestSuite\bin\Debug\TestSuite.dll</TopNode>
+  <SelectedNode>[0-1015]TestSuite.TestSuite.CanSerializeListOfDynamicToXML</SelectedNode>
+  <SelectedCategories>Serialize</SelectedCategories>
+  <ExcludeCategories>false</ExcludeCategories>
+  <Nodes>
+    <Node UniqueName="[0-1016]F:\vs10dev\DataPump\TestSuite\bin\Debug\TestSuite.dll" Expanded="true" />
+    <Node UniqueName="[0-1017]TestSuite" Expanded="true" />
+    <Node UniqueName="[0-1000]TestSuite.TestSuite" Expanded="true" />
+    <Node UniqueName="[0-1015]TestSuite.TestSuite.CanSerializeListOfDynamicToXML" Checked="true" />
+  </Nodes>
+</VisualState>

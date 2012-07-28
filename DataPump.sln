@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataPump", "DataPump\DataPump.csproj", "{2DE6A46C-5B4A-4647-9CF5-35F730EE8BCE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestSuite", "TestSuite\TestSuite.csproj", "{D30B79BF-2C97-4ED1-873F-262434879052}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataPumpWeb", "DataPumpWeb\DataPumpWeb.csproj", "{D18A934D-18F2-4D72-9CEE-1AB58C578DC5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2DE6A46C-5B4A-4647-9CF5-35F730EE8BCE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2DE6A46C-5B4A-4647-9CF5-35F730EE8BCE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2DE6A46C-5B4A-4647-9CF5-35F730EE8BCE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2DE6A46C-5B4A-4647-9CF5-35F730EE8BCE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D30B79BF-2C97-4ED1-873F-262434879052}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D30B79BF-2C97-4ED1-873F-262434879052}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D30B79BF-2C97-4ED1-873F-262434879052}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D30B79BF-2C97-4ED1-873F-262434879052}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D18A934D-18F2-4D72-9CEE-1AB58C578DC5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D18A934D-18F2-4D72-9CEE-1AB58C578DC5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D18A934D-18F2-4D72-9CEE-1AB58C578DC5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D18A934D-18F2-4D72-9CEE-1AB58C578DC5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
